@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Curso de Desenvolvimento Web | Academia Sirius</title>
+</head>
+<body>
+    <!-- Header (igual ao index) -->
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Academia<span>Sirius</span></a>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav-link">Cursos</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a> > <a href="cursos.html">Cursos</a> > Desenvolvimento Web
+        </div>
+    </div>
+
+    <!-- Hero do Curso -->
+
+<!--    
+    <section class="curso-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('web-dev-bg.jpg')">
+        <div class="container">
+            <div class="curso-header">
+                <h1>Desenvolvimento Web Full-Stack</h1>
+                <p class="subtitle">Domine as tecnologias para criar aplicações web modernas</p>
+                
+                <div class="curso-meta">
+                    <span><i class="fas fa-clock"></i> 12 semanas (240 horas)</span>
+                    <span><i class="fas fa-user-graduate"></i> Nível: Iniciante/Intermediário</span>
+                    <span><i class="fas fa-certificate"></i> Certificado incluído</span>
+                </div>
+                
+                <a href="#inscricao" class="btn">Quero me inscrever</a>
+            </div>
+        </div>
+    </section>
+
+     --> 
+
+         <section class="curso-hero" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('web-dev-bg.jpg')">
+        <div class="container">
+            <div class="curso-header">
+                <h1 class="section-title">Domine as tecnologias que estão moldando o futuro</h1>
+            </div>
+        </div>
+    </section>
+
+   <!-- Seção Cursos -->
+<section class="cursos" id="cursos">
+    <div class="container">
+       <!-- <h2 class="section-title">Nossos Cursos</h2> 
+        <p class="section-subtitle">Domine as tecnologias que estão moldando o futuro</p> 
+        --> 
+       
+        
+        <div class="cursos-grid">
+            <!-- Curso 1: Desenvolvimento Web -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Desenvolvimento Web</h3>
+                <p class="curso-resumo">Aprenda a criar sites e aplicações web modernas com as tecnologias mais demandadas.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>12 semanas (240 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Iniciante/Intermediário</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>HTML5 & CSS3 avançado</li>
+                        <li>JavaScript ES6+</li>
+                        <li>React.js ou Vue.js</li>
+                        <li>Node.js & Express</li>
+                        <li>Banco de dados (MongoDB & SQL)</li>
+                        <li>Deploy e DevOps básico</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Lógica de programação básica</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Criar aplicações web completas</li>
+                        <li>Consumir APIs RESTful</li>
+                        <li>Autenticação e autorização</li>
+                        <li>Boas práticas de código</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+
+            <!-- Curso 2: Data Science -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Data Science</h3>
+                <p class="curso-resumo">Domine análise de dados, machine learning e visualização para extrair insights valiosos.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>16 semanas (320 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Intermediário/Avançado</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>Python para Data Science</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Visualização com Matplotlib/Seaborn</li>
+                        <li>Machine Learning com Scikit-learn</li>
+                        <li>SQL para análise de dados</li>
+                        <li>Big Data básico</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Conhecimento básico de programação e estatística</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Limpar e preparar dados</li>
+                        <li>Criar modelos preditivos</li>
+                        <li>Visualizar dados complexos</li>
+                        <li>Trabalhar com datasets reais</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+
+            <!-- Curso 3: UX/UI Design -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>UX/UI Design</h3>
+                <p class="curso-resumo">Crie experiências de usuário memoráveis e interfaces intuitivas para produtos digitais.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>10 semanas (200 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Iniciante/Intermediário</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>Fundamentos de UX</li>
+                        <li>Pesquisa com usuários</li>
+                        <li>Wireframing & Prototipagem</li>
+                        <li>Figma & Adobe XD</li>
+                        <li>UI Design & Design Systems</li>
+                        <li>Testes de usabilidade</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Noções básicas de design (não obrigatório)</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Criar fluxos de usuário</li>
+                        <li>Desenvolver interfaces acessíveis</li>
+                        <li>Trabalhar com desenvolvedores</li>
+                        <li>Apresentar seus designs</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+
+            <!-- Curso 4: Cybersecurity -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Cybersecurity</h3>
+                <p class="curso-resumo">Proteja sistemas e dados contra ameaças cibernéticas com técnicas avançadas de segurança.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>14 semanas (280 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Intermediário/Avançado</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>Fundamentos de segurança</li>
+                        <li>Criptografia</li>
+                        <li>Testes de penetração</li>
+                        <li>Segurança de redes</li>
+                        <li>Ethical Hacking</li>
+                        <li>Compliance e leis</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Conhecimento de redes e sistemas operacionais</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Identificar vulnerabilidades</li>
+                        <li>Implementar medidas de segurança</li>
+                        <li>Realizar auditorias</li>
+                        <li>Responder a incidentes</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+
+            <!-- Curso 5: Cloud Computing -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h3>Cloud Computing</h3>
+                <p class="curso-resumo">Aprenda a implementar e gerenciar soluções em nuvem com AWS, Azure e Google Cloud.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>12 semanas (240 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Intermediário</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>Fundamentos de Cloud</li>
+                        <li>AWS Essentials</li>
+                        <li>Azure Fundamentals</li>
+                        <li>Arquitetura de soluções</li>
+                        <li>Contêineres e Kubernetes</li>
+                        <li>Segurança na nuvem</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Conhecimento básico de redes e sistemas</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Configurar ambientes cloud</li>
+                        <li>Migrar aplicações para a nuvem</li>
+                        <li>Otimizar custos</li>
+                        <li>Automatizar infraestrutura</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+
+            <!-- Curso 6: Inteligência Artificial -->
+            <div class="curso-card">
+                <div class="curso-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>Inteligência Artificial</h3>
+                <p class="curso-resumo">Desenvolva soluções inteligentes com machine learning, deep learning e NLP.</p>
+                
+                <div class="curso-detalhes">
+                    <div class="detalhe-item">
+                        <i class="fas fa-clock"></i>
+                        <span>18 semanas (360 horas)</span>
+                    </div>
+                    <div class="detalhe-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>Nível: Avançado</span>
+                    </div>
+                    
+                    <h4>Módulos Principais:</h4>
+                    <ul>
+                        <li>Fundamentos de AI/ML</li>
+                        <li>Python para AI</li>
+                        <li>Redes Neurais</li>
+                        <li>Processamento de Linguagem Natural</li>
+                        <li>Visão Computacional</li>
+                        <li>Ética em AI</li>
+                    </ul>
+                    
+                    <h4>Pré-requisitos:</h4>
+                    <p>Python intermediário e matemática aplicada</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul>
+                        <li>Desenvolver modelos de ML</li>
+                        <li>Trabalhar com frameworks como TensorFlow</li>
+                        <li>Implementar soluções de AI</li>
+                        <li>Otimizar modelos</li>
+                    </ul>
+                </div>
+                <a href="#contato" class="btn-small">Inscreva-se</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer (igual ao index) -->
+         <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Academia<span>Sirius</span></a>
+                    <p>Aprenda as competências que transformam o mundo.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-envelope"></i> geral@sirius.ao</p>
+                    <p><i class="fas fa-phone"></i> +244 123 456 789</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Academia Sirius. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
