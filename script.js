@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Menu mobile
     const hamburger = document.querySelector('.hamburger');
-    const navMenu = document.querySelector('.nav-menu');
+    const navMenu = document.querySelector('.navbar');
     
     hamburger.addEventListener('click', function() {
         hamburger.classList.toggle('active');
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Fechar menu ao clicar em um link
-    document.querySelectorAll('.nav-link').forEach(link => {
+    document.querySelectorAll('.nav-link, .btn-plataforma, .btn-login, .btn-register').forEach(link => {
         link.addEventListener('click', () => {
             hamburger.classList.remove('active');
             navMenu.classList.remove('active');
