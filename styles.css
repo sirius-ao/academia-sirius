@@ -176,6 +176,7 @@ p.section-subtitle {
 }
 
 /* Responsividade para os botões */
+
 @media (max-width: 992px) {
     .auth-buttons {
         margin-left: 0;
