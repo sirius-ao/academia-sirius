@@ -114,96 +114,6 @@ p.section-subtitle {
 }
 
 
-
-
-/* Estilos para os botões de autenticação */
-.auth-buttons {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-left: 30px;
-}
-
-.btn-plataforma, .btn-login, .btn-register {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-}
-
-.btn-plataforma {
-    background-color: #7c3aed;
-    color: white;
-}
-
-.btn-plataforma:hover {
-    background-color: #6d28d9;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.btn-login {
-    background-color: #f8fafc;
-    color: #2563eb;
-    border: 1px solid #2563eb;
-}
-
-.btn-login:hover {
-    background-color: #2563eb;
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.btn-register {
-    background-color: #2563eb;
-    color: white;
-}
-
-.btn-register:hover {
-    background-color: #1d4ed8;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.auth-buttons i {
-    margin-right: 8px;
-}
-
-/* Responsividade para os botões */
-@media (max-width: 992px) {
-    .auth-buttons {
-        margin-left: 0;
-        margin-top: 20px;
-        justify-content: center;
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .auth-buttons {
-        flex-direction: column;
-        gap: 10px;
-        display: none;
-    }
-    
-    .navbar.active .auth-buttons {
-        display: flex;
-        padding: 20px 0;
-    }
-    
-    .btn-plataforma, .btn-login, .btn-register {
-        width: 100%;
-        justify-content: center;
-        padding: 12px;
-    }
-}
-
 /* Ajustes para o header com os novos botões */
 .header .container {
     display: flex;
@@ -927,5 +837,95 @@ p.section-subtitle {
     
     .curso-resumo {
         min-height: auto;
+    }
+}
+
+
+/* Estilos para os botões de autenticação */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.btn-plataforma, .btn-login, .btn-register {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn-plataforma {
+    background-color: #7c3aed;
+    color: white;
+}
+
+.btn-plataforma:hover {
+    background-color: #6d28d9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login {
+    background-color: #f8fafc;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+.btn-login:hover {
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-register {
+    background-color: #2563eb;
+    color: white;
+}
+
+.btn-register:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-buttons i {
+    margin-right: 8px;
+}
+
+/* Responsividade para os botões */
+
+@media (max-width: 992px) {
+    .auth-buttons {
+        margin-left: 0;
+        margin-top: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+    
+    .navbar.active .auth-buttons {
+        display: flex;
+        padding: 20px 0;
+    }
+    
+    .btn-plataforma, .btn-login, .btn-register {
+        width: 100%;
+        justify-content: center;
+        padding: 12px;
     }
 }
